@@ -1,0 +1,24 @@
+{
+  "name": "nightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omo1933/nightwatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omo1933/nightwatch/issues"
+  },
+  "homepage": "https://github.com/omo1933/nightwatch#readme",
+  "devDependencies": {
+    "chromedriver": "^103.0.0",
+    "nightwatch": "^2.2.3"
+  }
+}
