@@ -19,7 +19,7 @@ const pageMenuOptions=(urlLink)=>{
         menuOptions(5, 'CONTACT')
         menuOptions(6, 'NEWS')
 }
-describe('duckduckgo example', function() {
+describe('Menu Verification', function() {
     it('verify that the menu contains all six options', function(browser) {
       browser
         .navigateTo('https://www.designory.com/')
