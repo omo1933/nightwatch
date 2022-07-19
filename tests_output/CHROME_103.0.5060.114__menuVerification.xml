@@ -5,9 +5,9 @@
 
   <testsuite name="menuVerification"
     errors="0" failures="0" hostname="" id="" package="menuVerification" skipped="0"
-    tests="3" time="20.49" timestamp="">
+    tests="3" time="21.62" timestamp="">
   
-    <testcase name="verify that the menu contains all six options" classname="menuVerification" time="4.445" assertions="7">
+    <testcase name="verify that the menu contains all six options" classname="menuVerification" time="5.244" assertions="7">
 
     
 
@@ -24,7 +24,7 @@
     
     </testcase>
   
-    <testcase name="Verify that all menu options take the user to relevant pages." classname="menuVerification" time="9.661" assertions="13">
+    <testcase name="Verify that all menu options take the user to relevant pages." classname="menuVerification" time="10.03" assertions="13">
 
     
 
@@ -53,7 +53,7 @@
     
     </testcase>
   
-    <testcase name="verify that on those relevant pages menu options are the same." classname="menuVerification" time="6.384" assertions="42">
+    <testcase name="verify that on those relevant pages menu options are the same." classname="menuVerification" time="6.347" assertions="42">
 
     
 

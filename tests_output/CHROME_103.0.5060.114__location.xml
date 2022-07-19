@@ -5,9 +5,9 @@
 
   <testsuite name="location"
     errors="0" failures="0" hostname="" id="" package="location" skipped="0"
-    tests="1" time="2.354" timestamp="">
+    tests="1" time="1.993" timestamp="">
   
-    <testcase name="Verify that the Chicago location is present in the footer on https://www.designory.com/locations/chicago" classname="location" time="2.354" assertions="6">
+    <testcase name="Verify that the Chicago location is present in the footer on https://www.designory.com/locations/chicago" classname="location" time="1.993" assertions="6">
 
     
 
