@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="with-custom-commands.angularTodo"
+    errors="0" failures="0" hostname="" id="" package="with-custom-commands" skipped="0"
+    tests="1" time="1.018" timestamp="">
+  
+    <testcase name="should add a todo using custom commands" classname="with-custom-commands.angularTodo" time="1.018" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       WebDriverError: Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url https://todo-vue3-vite.netlify.app/: unknown error: cannot determine loading status
+ from disconnected: received Inspector.detached event
+   (Session info: chrome=103.0.5060.114)
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\mandela\Desktop\nightwatch\nightwatch\tests\specs\basic\todoList.js:19:8)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

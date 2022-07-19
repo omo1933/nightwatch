@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="basic.todoList"
+    errors="1" failures="0" hostname="" id="" package="basic" skipped="0"
+    tests="1" time="1.167" timestamp="">
+  
+    <testcase name="should add a todo using global element()" classname="basic.todoList" time="1.167" assertions="0">
+    <error message="Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url https://todo-vue3-vite.netlify.app/: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=103.0.5060.114)" type="error"><![CDATA[
+    Error
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\mandela\Desktop\nightwatch\nightwatch\tests\specs\basic\todoList.js:19:8)
+    at Context.call (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\context.js:430:35)
+    at TestCase.run (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:691:80)
+    at Runnable.run (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.createRunnable (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:798:33)
+    at TestSuite.handleRunnable (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:803:33)
+    at C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:691:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (C:\Users\mandela\Desktop\nightwatch\nightwatch\node_modules\nightwatch\lib\runner\test-runners\default.js:73:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       WebDriverError: Error while running &#34;navigateTo&#34; command: [WebDriverError] Unable to navigate to url https://todo-vue3-vite.netlify.app/: unknown error: cannot determine loading status
+ from disconnected: received Inspector.detached event
+   (Session info: chrome=103.0.5060.114)
+       at DescribeInstance.&lt;anonymous&gt; (C:\Users\mandela\Desktop\nightwatch\nightwatch\tests\specs\basic\todoList.js:19:8)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
